@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Chau Philomene One", sans-serif;
+}
+
+body
+{
+    background-color: #fdf6c8;
+}
+
+header
+{
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    background-color: #badf8b;
+    align-items: center;
+    border-bottom: 3px solid #25995c;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+header img
+{
+    border: solid 2px #25995c;
+    border-radius: 100%;
+    width: 8vw;
+    margin: 1vw;
+    height: auto;
+}
+
+nav
+{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5vw;    
+}
+
+nav a
+{
+    text-align: center;
+    font-size: 2vw;
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+nav a:hover
+{
+    transform: scale(1.08);
+}
+
+nav p
+{
+    color: rgb(70, 70, 70);
+    font-size: 30px;
+    font-weight: 100;
+}
+
+/*FIM HEADER*/
+
+.linha
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vw;
+}
+
+.linha a
+{
+    color: black;
+        text-decoration: none;
+}
+
+.fundo
+{
+    background-color: #d3edb3;
+    font-family: "Josefin Sans", sans-serif;
+    width: 20vw;
+    height: 7vw;
+    border-radius: 999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6vw;
+    font-weight: 450;
+    letter-spacing: 7px;
+    transition: 0.2s;
+}
+
+.fundo:hover
+{
+    transform: scale(1.05);
+    background-color: #a0bd7d;
+}

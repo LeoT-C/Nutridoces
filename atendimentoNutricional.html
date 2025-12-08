@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atendimento Nutricional - NutriDoces</title>
+    <link rel="stylesheet" href="atendimentoNutricionalStyle.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="Imagens/Logo.png" alt="Logo"></a>
+            <nav>
+                <a href="cardapio.html">Cardápio</a>
+                <p>|</p>
+                <a href="index.html">Início</a>
+                <p>|</p>
+                <a href="receitas.html">Receitas</a>
+            </nav>
+    </header>  
+    
+    <div id="botaoVoltar">
+        <a href="inicio.html"><img src="Imagens/Voltar.png"></a><a href="inicio.html"><p>Voltar</p></a>
+    </div>
+
+    <h1 style="font-weight: 100; font-size: 4vw; text-align: center;">Atendimento Nutricional</h1>
+    <p style="text-align: center; font-size: 3vw; color: rgb(73, 73, 73); margin-top: 6vh;">Conte sobre sua meta, preferências e restrições, para que <br> assim possamos desenvolver um plano sob medida para <br> você</p>
+
+    <div id="fundo">
+        <div style="display: flex;">
+            <div id="fundoVerde">
+                <p style="text-align: center; font-size: 2.5vw; margin-top: 3vh;">Qual sua meta?</p>
+                <div style="display: flex; align-items: center;"><img src="Imagens/AtendNutri/Peso.png"> <p style="font-size: 2.5vw; margin-left: 1vw; margin-top: 1.5vw;">Ganhar peso</p> <input type="radio" name="opcao" id="bola" value="Ganhar"></div>
+                <div style="display: flex; align-items: center; margin-top: 2vw;"><img src="Imagens/AtendNutri/Maca.png"> <p style="font-size: 2.5vw; margin-left: 1vw; margin-top: 1.5vw;">Perder peso</p> <input type="radio" name="opcao" id="bola" value="Perder"></div>
+            </div>
+
+            <div style="height: 25vw; display: flex; flex-direction: column; justify-content: space-between; margin-top: 5vw; margin-left: 4vw;">
+                <div class="linhaFormulario"><p>Digite sua idade:</p> <input type="text" id="idade"></div>
+                <div class="linhaFormulario"><p>Digite sua altura:</p> <input type="text" id="altura"><p>CM</p></div>
+                <div class="linhaFormulario"><p>Digite seu peso:</p> <input type="text" id="peso"><p>KG</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 100%; display: flex; flex-direction: column; align-items: center; font-size: 2.6vw; margin-top: 10vh;">
+        <p>Onde podemos falar com você? (WhatsApp, e-mail, etc...)</p>
+        <input type="text" style="width: 60vw; border: 0; height: 3vw; border-radius: 999px; text-align: center; font-size: 2vw;" id="contato">
+
+        <p style="margin-top: 10VH;">Fale sobre suas preferências e restrições:</p>
+        <input type="text" style="width: 60vw; border: 0; height: 10vw; border-radius: 999px; text-align: center; font-size: 2vw;" id="preferencias">
+
+            <button id="encaminhar" onclick="encaminhar()">Encaminhar para um <br> nutricionista</button>
+    </div>
+
+    <footer>
+        <div id="linha1Footer">
+            <img src="Imagens/Logo.png" alt="Logo">
+            <a href=""><button>Voltar ao topo</button></a>
+        </div>
+
+        <div style="width: 100%; display: flex;flex-direction: column;align-items: center; font-size: 2vw; ">
+            <a href="cardapio.html" style="color: black; text-decoration: none;"><p>Cardápio</p></a>
+            <a href="index.html" style="color: black; text-decoration: none;"><p>Início</p></a>
+            <a href="receitas.html" style="color: black; text-decoration: none; margin-bottom: 2vw;"><p>Receitas</p></a>
+        </div>
+    </footer>
+
+    <script src="atendimentoNutricionalJS.js"></script>
+</body>
+</html>

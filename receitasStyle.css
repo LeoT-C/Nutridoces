@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Chau Philomene One", sans-serif;
+}
+
+body
+{
+    background-color: #fdf6c8;
+}
+
+header
+{
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    background-color: #badf8b;
+    align-items: center;
+    border-bottom: 3px solid #25995c;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+header img
+{
+    border: solid 2px #25995c;
+    border-radius: 100%;
+    width: 8vw;
+    margin: 1vw;
+    height: auto;
+}
+
+nav
+{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5vw;    
+}
+
+nav a
+{
+    text-align: center;
+    font-size: 2vw;
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+nav a:hover
+{
+    transform: scale(1.08);
+}
+
+nav p
+{
+    color: rgb(70, 70, 70);
+    font-size: 30px;
+    font-weight: 100;
+}
+
+/*FIM HEADER*/
+
+#botaoVoltar
+{
+    margin-top: 10vw;
+    display: flex;
+    align-items: center;
+    font-size: 2.2vw;
+}
+
+#botaoVoltar img
+{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    width: 4vw;
+    height: 4vw;
+}
+
+#botaoVoltar a
+{
+    color: black;
+    text-decoration: none;
+}
+
+#fundo
+{
+    background-image: url(Imagens/Receitas/Receitas.png);
+    width: 70vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+}
+
+#icone
+{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+    margin-left: 8vw;
+}
+
+
+.cartao
+{
+    width: 20vw;
+    height:25vw;
+    background-color: #e4d88c;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cartao img
+{
+    width: 15vw;
+    border-radius: 100%;
+}
+
+.linha
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7vw;
+}
+.cartao p
+{
+    font-size: 2.2vw;
+}
+
+footer
+{
+    width: 100%;
+    background-color: #badf8b;
+    margin-top: 15vh;
+}
+
+#linha1Footer
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#linha1Footer img
+{
+    border-radius: 100%;
+    border: solid 2px #25995c;
+    width: 7vw;
+    height: 7vw;
+    margin: 2vw;
+}
+
+#linha1Footer button
+{
+    border-radius: 999px;
+    border: 0;
+    background-color: #709b2a;
+    width: 15vw;
+    height: 5vw;
+    color: white;
+    font-size: 2vw;
+    margin-left: 31vw;
+}

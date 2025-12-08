@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Chau Philomene One", sans-serif;
+}
+
+body
+{
+    background-color: #fdf6c8;
+}
+
+header
+{
+    width: 100%;
+    height: 10vw;
+    display: flex;
+    background-color: #badf8b;
+    align-items: center;
+    border-bottom: 3px solid #25995c;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    margin-bottom: 10vw;
+}
+
+header img
+{
+    border: solid 2px #25995c;
+    border-radius: 100%;
+    width: 8vw;
+    margin: 1vw;
+    height: auto;
+}
+
+nav
+{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5vw;    
+}
+
+nav a
+{
+    text-align: center;
+    font-size: 2vw;
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+nav a:hover
+{
+    transform: scale(1.08);
+}
+
+nav p
+{
+    color: rgb(70, 70, 70);
+    font-size: 30px;
+    font-weight: 100;
+}
+
+/*FIM HEADER*/
+
+#botaoVoltar
+{
+    margin-top: 10vw;
+    display: flex;
+    align-items: center;
+    font-size: 2.2vw;
+}
+
+#botaoVoltar img
+{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    width: 4vw;
+    height: 4vw;
+}
+
+#botaoVoltar a
+{
+    color: black;
+    text-decoration: none;
+}
+
+#fundo
+{
+    background-color: #ebe1a1;
+    width: 100%;
+    margin-top: 15vh;
+}
+
+#fundoVerde
+{
+    border: 3px solid black;
+    border-radius: 80px;
+    width: 45vw;
+    height: 30vw;
+    background-color: #d3edb3;
+    margin-left: 3vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+#fundoVerde img
+{
+    width: 7vw;
+    height: 7vw;
+    border-radius: 100%;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
+#bola
+{
+    appearance: none;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 2vw;
+    height: 2vw;
+    background-color: white;
+}
+
+#bola:checked
+{
+    background-color: rgb(48, 143, 45);
+}
+
+.linhaFormulario
+{
+    display: flex;
+    font-size: 2.5vw;
+}
+
+.linhaFormulario input
+{
+    height: 3vw;
+    width: 10vw;
+    border: 0;
+    border-radius: 999px;
+    font-size: 2vw;
+    text-align: center;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+#encaminhar
+{
+    margin-top: 15vh;
+    width: 15vw;
+    height: 6vw;
+    background-color: #709b2a;
+    border: 0;
+    font-size: 1.5vw;
+    color: white;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+#encaminhar:hover
+{
+    transform: scale(1.1);
+    background-color: #4e6e1b;
+}
+
+footer
+{
+    width: 100%;
+    background-color: #badf8b;
+    margin-top: 15vh;
+}
+
+#linha1Footer
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#linha1Footer img
+{
+    border-radius: 100%;
+    border: solid 2px #25995c;
+    width: 7vw;
+    height: 7vw;
+    margin: 2vw;
+}
+
+#linha1Footer button
+{
+    border-radius: 999px;
+    border: 0;
+    background-color: #709b2a;
+    width: 15vw;
+    height: 5vw;
+    color: white;
+    font-size: 2vw;
+    margin-left: 31vw;
+}
+
