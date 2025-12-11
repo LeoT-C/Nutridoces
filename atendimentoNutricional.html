@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atendimento Nutricional - NutriDoces</title>
     <link rel="stylesheet" href="atendimentoNutricionalStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -50,6 +51,27 @@
 
             <button id="encaminhar" onclick="encaminhar()">Encaminhar para um <br> nutricionista</button>
     </div>
+
+<div id="fundoEscuro">
+    <div id="popUp">
+        <div style="display: flex; align-items: center; width: 100%;"><p id="txtPrincipal">Informações encaminhadas</p></div>
+        <div class="linha">
+            <div style="display: flex;"><i class="fa-solid fa-bullseye"></i><strong><p>Meta:</p></strong><p id="metaValue"></p><p>peso</p></div>
+            <div style="display: flex;"><i class="fa-solid fa-cake-candles"></i><strong><p>Idade:</p></strong><p id="idadeValue"></p><p>anos</p></div>
+        </div>
+
+        <div class="linha">
+            <div style="display: flex;"><i class="fa-solid fa-ruler"></i><strong><p>Altura:</p></strong><p id="alturaValue"></p><p>CM</p></div>
+            <div style="display: flex;"><i class="fa-solid fa-weight-scale"></i><strong><p>Peso:</p></strong><p id="pesoValue"></p><p>KG</p></div>
+        </div>
+
+        <div class="txtMaior">Contato: <p id="contatoValue"></p></div>
+        <div class="txtMaior">Preferências e restrições: <p id="preferenciasValue"></p></div>
+
+        <button id="fecharPopUp" onclick="fecharPopUp()">Fechar</button>
+    </div>
+</div>
+
 
     <footer>
         <div id="linha1Footer">

@@ -171,6 +171,102 @@ nav p
     background-color: #4e6e1b;
 }
 
+#fundoEscuro
+{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    inset: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#popUp
+{
+    background-color: #c6dea5;
+    width: 40vw;
+    height: 90vh;
+    border-radius: 20px;
+    border: 3px solid #25995c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#txtPrincipal
+{
+    font-size: 3rem;
+    color: #10733e;
+    margin-top: 20px;
+    margin-left: 5vw;
+    text-align: center;
+}
+
+#popUp i
+{
+    font-size: 3rem;
+    color: #126438;
+    margin-right: 5px;
+}
+.linha
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.linha p
+{
+    font-size: 2rem;
+    color: #064423;
+    margin-left: 5px;
+}
+
+.txtMaior
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.7rem;
+    color: #064423;
+}
+
+.txtMaior p
+{
+    font-size: 2rem;
+    color: black;
+}
+
+#fecharPopUp
+{
+    width: 80%;
+    background-color: #22aa62;
+    border: 3px solid #116237;
+    border-radius: 100px;
+    height: 60px;
+    color: white;
+    font-size: 2rem;
+    transition: 0.2s;
+    margin-top: 30px;
+}
+#fecharPopUp:hover
+{
+    transform: scale(1.05);
+    background-color: #10713d;
+}
+
+#preferenciasValue
+{
+    text-align: center;
+    font-size: 2rem;
+}
+
 footer
 {
     width: 100%;
